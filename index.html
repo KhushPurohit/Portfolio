@@ -608,13 +608,23 @@
 
 
 
+  <!-- Fallback Safety: Never leave preloader stuck -->
+  <script>
+    setTimeout(function() {
+      var l = document.getElementById('loaderScreen');
+      if (l && !l.classList.contains('hide')) {
+        l.classList.add('hide');
+      }
+    }, 2000);
+  </script>
+
   <!-- Third-party Animations & Smooth Scroll Libraries -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
   <script src="https://unpkg.com/lenis@1.1.9/dist/lenis.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
 
-  <!-- Main JavaScript File -->
-  <script src="script.js"></script>
+  <!-- Main JavaScript File (type="module" for Vite bundling) -->
+  <script type="module" src="/script.js"></script>
 </body>
 </html>

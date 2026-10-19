@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+function initPortfolio() {
 
   // ==========================================
   // 1. PRELOADER SCREEN (<1.5s EXIT)
@@ -509,6 +509,11 @@ document.addEventListener('DOMContentLoaded', () => {
       handleSend(e.target.textContent);
     }
   });
+}
 
-});
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initPortfolio);
+} else {
+  initPortfolio();
+}
 

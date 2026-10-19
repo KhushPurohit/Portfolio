@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Khush Purohit — Resume</title>
+  <style>
+    body { font-family: 'Helvetica Neue', Arial, sans-serif; padding: 40px; color: #1e293b; max-width: 800px; margin: 0 auto; line-height: 1.5; }
+    h1 { font-size: 28px; margin-bottom: 4px; color: #0f172a; text-transform: uppercase; letter-spacing: 1px; }
+    .contact { font-size: 13px; color: #64748b; margin-bottom: 24px; border-bottom: 2px solid #00f0ff; padding-bottom: 12px; }
+    h2 { font-size: 16px; color: #0284c7; text-transform: uppercase; letter-spacing: 1px; margin-top: 24px; margin-bottom: 10px; border-bottom: 1px solid #e2e8f0; padding-bottom: 4px; }
+    .item { margin-bottom: 14px; }
+    .item-title { font-weight: bold; font-size: 14px; color: #0f172a; }
+    .item-sub { font-style: italic; font-size: 13px; color: #475569; }
+    .item-desc { font-size: 13px; color: #334155; margin-top: 4px; }
+    ul { margin: 4px 0; padding-left: 20px; font-size: 13px; color: #334155; }
+  </style>
+</head>
+<body>
+  <h1>KHUSH PUROHIT</h1>
+  <div class="contact">
+    Phone: 9316441027 | Email: khushpurohit441027@gmail.com | Location: Ahmedabad, Gujarat<br>
+    LinkedIn: linkedin.com | GitHub: github.com
+  </div>
+
+  <h2>About Me</h2>
+  <p style="font-size: 13px; color: #334155;">
+    AI & ML student passionate about software and web development. Enjoy building projects, learning modern technologies, and solving real-world problems through practical experience.
+  </p>
+
+  <h2>Education</h2>
+  <div class="item">
+    <div class="item-title">Bachelor of Technology, Computer Science & Engineering</div>
+    <div class="item-sub">Faculty of Engineering & Technology, GLS UNIVERSITY (2023–2027) — CGPA: 9.13</div>
+  </div>
+  <div class="item">
+    <div class="item-title">Vishvaniketan School (VSAS)</div>
+    <div class="item-sub">XII: 52% (2021–2023)</div>
+  </div>
+  <div class="item">
+    <div class="item-title">GLS School</div>
+    <div class="item-sub">X: 83%-93%tile (2020–2021)</div>
+  </div>
+
+  <h2>Projects</h2>
+  <div class="item">
+    <div class="item-title">CO2 Digital Twin</div>
+    <div class="item-desc">A 3D interactive dashboard for monitoring and simulating CO2 levels across India. Leverages CesiumJS for 3D geospatial visualization, providing real-time and baseline data analysis for urban planning. SIH 2025 Grand Finalist.</div>
+  </div>
+  <div class="item">
+    <div class="item-title">AI-Powered Cloud Threat Detection</div>
+    <div class="item-desc">Built an AI-powered cloud threat detection platform using machine learning and Digital Twin concepts for real-time anomaly detection. Accepted Research Paper at IEEE CICON 2026.</div>
+  </div>
+  <div class="item">
+    <div class="item-title">OpenDK</div>
+    <div class="item-desc">ML-powered open-source software recommender using Flask, TF-IDF, Scikit-learn, and SQLite across 2,500+ applications.</div>
+  </div>
+
+  <h2>Skills</h2>
+  <ul>
+    <li><strong>Languages:</strong> Python, Java, C/C++, JavaScript, PHP</li>
+    <li><strong>Frameworks:</strong> React.js, Node.js, Flask</li>
+    <li><strong>AI / ML:</strong> Machine Learning, Text Analysis, NLP, Deep Learning</li>
+    <li><strong>Databases &amp; Cloud:</strong> MySQL, MongoDB, SQLite, AWS, Vercel</li>
+  </ul>
+
+  <h2>Achievements &amp; Honors</h2>
+  <ul>
+    <li>Founder of Web3 Startup — Pre-Incubation Cohort 9 at PIERC &amp; SSIP Grant recipient</li>
+    <li>Team Leader &amp; Two-Time Smart India Hackathon (SIH) Finalist (2024, 2025)</li>
+    <li>Winner, GLS FET Internal Hackathon (2024, 2025)</li>
+    <li>Top 10 Finalist, AU Ingenium 7.0 (2026)</li>
+    <li>Bug Bounty Organizer — CyberShadez 2026</li>
+    <li>Accepted Research Paper — IEEE CICON 2026</li>
+    <li>Meritorious Scholarship recipient in First Year</li>
+  </ul>
+</body>
+</html>
